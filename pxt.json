@@ -1,5 +1,6 @@
 {
     "name": "Bobs basement 2 (BETA)",
+    "version": "0.1.0",
     "description": "",
     "dependencies": {
         "device": "*",
