@@ -1,0 +1,54 @@
+{
+    "name": "Bobs basement 2 (BETA)",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "pxt-lantern": "github:riknoll/pxt-lantern#v0.1.2",
+        "tilemaps": "github:microsoft/pxt-tilemaps#v1.12.0",
+        "animation": "*",
+        "pxt-status-bar": "github:jwunderl/pxt-status-bar#v0.4.1",
+        "Timers": "github:microsoft/arcade-timers#v1.1.0",
+        "controller": "*",
+        "arcade-character-animations": "github:microsoft/arcade-character-animations#v0.0.2",
+        "arcade-minimap": "github:microsoft/arcade-minimap#v0.6.1",
+        "darts": "*",
+        "arcade-story": "github:microsoft/arcade-storytelling#v1.0.3",
+        "corgio": "*",
+        "arcade-sprite-util": "github:jwunderl/arcade-sprite-util#v0.2.4",
+        "color-coded-tilemap": "*",
+        "sevenseg": "*",
+        "arcade-background-scroll": "github:microsoft/arcade-background-scroll#926e12eefffd09d453c7cde73f8d6ebd0e666d9d",
+        "radio-broadcast": "*",
+        "pxt-rtttl": "github:pelikhan/pxt-rtttl#v0.0.10",
+        "sprite-scaling": "*",
+        "arcade-tile-util": "github:microsoft/arcade-tile-util#v1.0.1",
+        "settings-blocks": "github:microsoft/pxt-settings-blocks#v1.0.0",
+        "arcade-text": "github:microsoft/arcade-text#v1.3.0",
+        "servo": "*"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "assets.json",
+        "images.g.jres",
+        "images.g.ts",
+        "tilemap.g.jres",
+        "tilemap.g.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "v1.10.36",
+        "tag": "v1.10.36",
+        "commits": "https://github.com/microsoft/pxt-arcade/commits/3a5a7e13703edf0412c17bdb9b1469e282a5b31b",
+        "target": "1.10.36",
+        "pxt": "8.3.9",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "blocksprj"
+}
