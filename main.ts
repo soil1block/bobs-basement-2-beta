@@ -172,6 +172,7 @@ function level2 () {
     tiles.placeOnRandomTile(plant2, sprites.castle.rock0)
     tiles.placeOnRandomTile(plant3, sprites.castle.rock0)
     tiles.placeOnRandomTile(plant4, sprites.castle.rock0)
+    info.startCountdown(3000)
     timer.after(50000, function () {
         tiles.placeOnRandomTile(bob, assets.tile`myTile43`)
         bob.follow(you, 150)
@@ -2338,7 +2339,7 @@ function Level_one () {
         story.spriteSayText(you, "What do i do!", 15, 1, story.TextSpeed.Normal)
     }
     tiles.placeOnRandomTile(bob, sprites.dungeon.floorDarkDiamond)
-    info.setScore(5)
+    info.setScore(0)
     timer.after(3000, function () {
         music.bigCrash.play()
         scene.cameraShake(8, 1000)
